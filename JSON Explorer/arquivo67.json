@@ -1,0 +1,49 @@
+{
+  "user": {
+    "id": 67,
+    "name": "Lower",
+    "active": true,
+    "email": "lower@example.com",
+    "profile": {
+      "description": "Desenvolvedor curioso",
+      "location": null,
+      "languages": [
+        "C#",
+        "Python",
+        "JavaScript",
+        "Lua"
+      ]
+    }
+  },
+  "projects": [
+    {
+      "name": "JSON Explorer",
+      "language": "C#",
+      "completed": false,
+      "version": 0.1
+    },
+    {
+      "name": "Note-re",
+      "language": "Python",
+      "completed": true,
+      "version": 1.0
+    },
+    {
+      "name": "Cuber-re",
+      "language": "JavaScript",
+      "completed": false,
+      "version": 0.5
+    }
+  ],
+  "settings": {
+    "theme": "dark",
+    "notifications": true,
+    "max_items": 100,
+    "experimental": false
+  },
+  "statistics": {
+    "total_projects": 3,
+    "hours_coded": 128.5,
+    "last_activity": "2026-11-08"
+  }
+}

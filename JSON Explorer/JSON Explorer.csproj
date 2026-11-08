@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>JSON_Explorer</AssemblyName>
+    <RootNamespace>JSON Explorer</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="teste.json" />
+    <Compile Remove="arquivo67.json.cs" />
+    <Compile Remove="arquivo67.jso.cs" />
+    <None Update="arquivo67.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
